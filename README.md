@@ -28,7 +28,7 @@ transformers
 
 pydub
 
-docx
+python-docx
 
 librosa
 
@@ -89,29 +89,17 @@ Configura el dispositivo (CPU o GPU) y carga el modelo Whisper de Hugging Face.
 
 Funciones principales
 
-convert_mp4_to_wav
+convert_mp4_to_wav: Convierte el archivo MP4 a formato WAV compatible con Whisper.
 
-Convierte el archivo MP4 a formato WAV compatible con Whisper.
+split_audio_by_silence: Divide el archivo de audio en fragmentos basándose en silencios.
 
-split_audio_by_silence
+split_long_chunks: Divide fragmentos largos en subfragmentos de duración manejable.
 
-Divide el archivo de audio en fragmentos basándose en silencios.
+save_audio_chunks: Guarda cada fragmento de audio como un archivo WAV independiente.
 
-split_long_chunks
+save_chunk_to_word: Escribe el texto transcrito de cada fragmento en un documento de Word.
 
-Divide fragmentos largos en subfragmentos de duración manejable.
-
-save_audio_chunks
-
-Guarda cada fragmento de audio como un archivo WAV independiente.
-
-save_chunk_to_word
-
-Escribe el texto transcrito de cada fragmento en un documento de Word.
-
-transcribe_audio_to_word
-
-Transcribe los fragmentos de audio utilizando el modelo Whisper y guarda el resultado en Word.
+transcribe_audio_to_word: Transcribe los fragmentos de audio utilizando el modelo Whisper y guarda el resultado en Word.
 
 Ejecución principal
 
@@ -139,7 +127,7 @@ Archivo de transcripción: transcripcion_clase.docx
 
 Contribución
 
-Siente libre de enviar pull requests o abrir issues para mejorar el script. ¡Cualquier sugerencia o mejora es bienvenida!
+Siéntete libre de enviar pull requests o abrir issues para mejorar el script. ¡Cualquier sugerencia o mejora es bienvenida!
 
 Licencia
 
