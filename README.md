@@ -22,21 +22,14 @@ Dependencias
 
 Este proyecto requiere las siguientes bibliotecas:
 
-torch
-
-transformers
-
-pydub
-
-python-docx
-
-librosa
-
-gc
-
-os
-
-time
+- torch
+- transformers
+- pydub
+- python-docx
+- librosa
+- gc
+- os
+- time
 
 Configuración del entorno
 
