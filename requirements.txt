@@ -1,0 +1,5 @@
+torch
+transformers
+pydub
+python-docx
+librosa
