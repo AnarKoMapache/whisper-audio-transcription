@@ -1,8 +1,8 @@
-Transcripción Automática de Audio con Whisper y Python
+# Transcripción Automática de Audio con Whisper y Python
 
 Este repositorio contiene un script en Python para transcribir archivos de audio en formato MP4 a texto, utilizando el modelo Whisper de OpenAI y la biblioteca de Transformers de Hugging Face. El script realiza varias tareas, incluyendo la conversión de audio, segmentación basada en silencios, transcripción de audio y guardado de resultados en un documento de Word.
 
-Características
+## Características
 
 Conversión de audio: Convierte archivos MP4 a WAV utilizando FFmpeg y la biblioteca Pydub.
 
@@ -16,9 +16,9 @@ Guardado en Word: Transcribe el texto directamente a un documento de Word, organ
 
 Compatibilidad con GPU: Si está disponible, el procesamiento se realiza en GPU para un mejor rendimiento.
 
-Requisitos
+## Requisitos
 
-Dependencias
+### Dependencias
 
 Este proyecto requiere las siguientes bibliotecas:
 
@@ -31,7 +31,7 @@ Este proyecto requiere las siguientes bibliotecas:
 - os
 - time
 
-Configuración del entorno
+### Configuración del entorno
 
 GPU opcional: El script detecta automáticamente si hay una GPU disponible y optimiza el procesamiento en consecuencia.
 
@@ -41,16 +41,16 @@ Puedes instalar las dependencias de Python utilizando el siguiente comando:
 
 pip install torch transformers pydub python-docx librosa
 
-Para instalar FFmpeg:
+### Para instalar FFmpeg:
 
-En sistemas basados en Debian/Ubuntu:
+### En sistemas basados en Debian/Ubuntu:
 
 sudo apt update
 sudo apt install ffmpeg
 
-En Windows: Descarga el ejecutable desde FFmpeg.org y agrégalo al PATH.
+### En Windows: Descarga el ejecutable desde FFmpeg.org y agrégalo al PATH.
 
-Uso
+# Uso
 
 Coloca tu archivo MP4 en el mismo directorio que el script.
 
@@ -74,7 +74,7 @@ Transcribirá los fragmentos y guardará el texto en un archivo Word (transcripc
 
 Al finalizar, encontrarás el archivo Word con la transcripción en el mismo directorio.
 
-Estructura del Código
+### Estructura del Código
 
 Configuración inicial
 
@@ -118,10 +118,10 @@ Fragmentos generados: Guardados en la carpeta audio_chunks.
 
 Archivo de transcripción: transcripcion_clase.docx
 
-Contribución
+# Contribución
 
 Siéntete libre de enviar pull requests o abrir issues para mejorar el script. ¡Cualquier sugerencia o mejora es bienvenida!
 
-Licencia
+### Licencia
 
-Este proyecto está licenciado bajo la MIT License.
+### Este proyecto está licenciado bajo la MIT License.
