@@ -48,7 +48,9 @@ pip install torch transformers pydub python-docx librosa
 sudo apt update
 sudo apt install ffmpeg
 
-### En Windows: Descarga el ejecutable desde FFmpeg.org y agrégalo al PATH.
+### En Windows: 
+
+Descarga el ejecutable desde FFmpeg.org y agrégalo al PATH.
 
 # Uso
 
